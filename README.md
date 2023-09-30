@@ -59,15 +59,15 @@ f(x) =
 \end{cases}
 $$
 
-![Piecewise Constant Function](function.png)
+![Piecewise Constant Function](images/function.png)
 
 Using the formula for  $\tilde{f}(x)$, we obtain its smoothed approximation as shown below (scale=1):
 
-![Smoothed Function](analytical.png)
+![Smoothed Function](images/analytical.png)
 
 ### Effect of Different Scales
 
-![Effect of Different Scales](analytical_scale.png)
+![Effect of Different Scales](images/analytical_scale.png)
 
 ## Performance Comparison
 
@@ -76,9 +76,9 @@ The analytical method significantly outperforms brute-force numerical convolutio
 - 10x faster in computation
 - Slighty better in terms of error
 
-![Analytical vs Numerical](anvnum.png)
+![Analytical vs Numerical](images/anvnum.png)
 
-![Error Analysis](anvnumerr.png)
+![Error Analysis](images/anvnumerr.png)
 
 ## Conclusion
 
